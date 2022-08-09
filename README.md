@@ -131,9 +131,21 @@ We didn't find Duplicated data in this dataset
 we will compare 9 model and choose best 2 model for Hyperparameter Tuning
 <img src="Assets/MaE 1.jpg" alt="Benchmark 9 Model"/><br>
 Best 2 model is Gradient Boost and XGBoost
-<img src="Assets/MaE 2.jpg" alt="Benchmark 9 Model"/><br>
+<img src="Assets/MaE 2.jpg" alt="Best 2 model"/><br>
 
 # Hyperparameter Tuning
 ---
 
+## **Compare Best 2 model After Tuning and Before Tuning**
+<img src="Assets/HT 2.jpg" alt="Compare After Tuning and Before Tuning"/><br>
+Than we will compare with regplot Gradient boost after tuning and before tuning
+<img src="Assets/Comp 1.jpg" alt="Regplot Compare"/><br>
+we choose Gradient Boost Before Tuning to Machine Learning
 
+## **Compare Predict with Actual**
+<img src="Assets/Comp 2.jpg" alt="Compare Pred with Act"/><br>
+
+We decide to apply gradient boost before tuning to data test and save machine learning "sample_submission.csv"
+
+# Conclusion
+RMSE results show machine learning will 24216.4. we can conclude that when this model is used to predict house prices in Ames in the value range as trained on the model, the average estimate will miss about 24,216.4. but in fact this model has biggest miss 153,222. and R2 score 0.9, which means that the independent variable greatly affects the dependent variable

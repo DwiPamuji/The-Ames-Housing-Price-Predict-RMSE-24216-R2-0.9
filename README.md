@@ -2,7 +2,9 @@
 ---
 by [Dwi Pamuji Bagaskara](https://github.com/DwiPamuji)
 
-Gambar???
+<img src="Assets/Cover.jpeg" alt="the Ames Housing"/>
+
+*Image Source: https://miro.medium.com/max/700/1*sMTSm5JLTD9fD2HO1vdCeQ.jpeg*
 
 
 # Contents

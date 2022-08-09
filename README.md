@@ -97,8 +97,43 @@ For Detail you can see in data_description.txt'
 <img src="Assets/EDA 4.jpg" alt="Persentage Sale Type"/><br>
 
 ## EDA Data Train
-### barplot for saleprice and the data type with objects
+### Barplot for Saleprice and The Data Type with Objects
 
-<img src="Assets/EDA 5.jpg" alt="Persentage Sale Type"/><br>
+<img src="Assets/EDA 5.jpg" alt="Barplot for Saleprice and The Data Type with Objects"/><br>
+
+### Distribution plot 
+<img src="Assets/EDA 6.jpg" alt="Distribution plot "/><br>
+
+# <a id="data-preprocessing">Data Preprocessing</a>
+---
+
+## Indentify Outlier
+<img src="Assets/DP 1.jpg" alt="Indentify Outlier"/><br>
+Total Missing Value 897 data or 61.4% from all data
+
+## Indentify Duplicated Data
+<img src="Assets/DP 4.jpg" alt="Indentify Duplicated Data"/><br>
+We didn't find Duplicated data in this dataset
+
+## Missing Value
+<img src="Assets/DP 5.jpg" alt="Indentify Missing Value"/><br>
+<img src="Assets/DP 2.jpg" alt="Indentify Missing Value"/><br>
+
+**Scheme for Handling Missing Value :**
+1. Simple Imputer with value 0 : LotFrontage, MasVnrArea, GarageYrBlt
+1. Simple Imputer with value None : MasVnrType
+1. Simple Imputer with value Modus : Electrical
+1. Simple Imputer with value NA : Alley, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, PoolQC, Fence, MiscFeature
+
+# Modeling and Evaluaton
+---
+
+we will compare 9 model and choose best 2 model for Hyperparameter Tuning
+<img src="Assets/MaE 1.jpg" alt="Benchmark 9 Model"/><br>
+Best 2 model is Gradient Boost and XGBoost
+<img src="Assets/MaE 2.jpg" alt="Benchmark 9 Model"/><br>
+
+# Hyperparameter Tuning
+---
 
 

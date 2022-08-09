@@ -1,4 +1,4 @@
-# Credit Card Customer Segmentation with Agglomerative, K-Means, and K-Medoids
+# The Ames Housing Price predict
 ---
 by [Dwi Pamuji Bagaskara](https://github.com/DwiPamuji)
 
@@ -18,7 +18,7 @@ Gambar???
 1. [Test Machine Learning](#test-machine-learning)
 1. [Conclusion](#conclution)
 
-# <a id="business-understanding">Business Understanding</a> 
+# <a id="business-problem-understanding">Business Problem Understanding</a> 
 ---
 
 ## Context
@@ -82,12 +82,23 @@ For Detail you can see in data_description.txt'
 ## EDA General
 ### Persentage House Zone
 
-<img src="Assets/DP 1.jpg" alt="Persentage House Zone"/><br>
+<img src="Assets/EDA 1.jpg" alt="Persentage House Zone"/><br>
 
 ### Persentage Sale Type
 
-<img src="Assets/DP 2.jpg" alt="Persentage Sale Type"/><br>
+<img src="Assets/EDA 2.jpg" alt="Persentage Sale Type"/><br>
 
+### Persentage Sale Condition
 
+<img src="Assets/EDA 3.jpg" alt="Persentage Sale Condition"/><br>
+
+### House Fasilities
+
+<img src="Assets/EDA 4.jpg" alt="Persentage Sale Type"/><br>
+
+## EDA Data Train
+### barplot for saleprice and the data type with objects
+
+<img src="Assets/EDA 5.jpg" alt="Persentage Sale Type"/><br>
 
 
